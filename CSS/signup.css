@@ -1,0 +1,91 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url("..//Images//wp.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+.signupBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 800px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: white;
+	text-align: center;
+}
+.signupBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.signupBox input[type="text"],
+.signupBox input[type="password"],
+.signupBox input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	width: 100%;
+	margin-bottom: 20px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.signupBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 16px;
+	background: cyan;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.signupBox input[type="submit"]:hover
+{
+	background: green;
+	color: black;
+}
+.signupBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+p{
+	text-align: left;
+	display: inline;
+}
+.signupBox input[type="radio"]
+{
+	display:inline;
+}
+h5{
+	color: white;
+	display: inline;
+}

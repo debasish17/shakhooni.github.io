@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>number</title>
+</head>
+<body>
+	<form id="f1"action=test.html" >
+		<input type="text" name="text"id="t1">
+		<input type="submit" value="submit form" name="">
+	</form>
+	<input type="button"value="click"  id="b1">
+
+<script type="text/javascript" src=JS/jquery.js"/> </script>
+
+ <script type="text/javascript">
+ 	$(document).ready(function () 
+ 	{
+ 	 $('#b1').click(function()
+ 	 {
+ 	 	alert('hi');
+ 	 });
+ 	 $('#f1').submit(function()
+ 	 {
+ 	 	var text=$("#t1").val();
+ 	 	if(text=="")
+ 	 	{
+ 	 		alert('empty')
+ 	 		return false;
+ 	 	}
+ 	 	return true;
+ 	 });
+ 	 $('t1').keypress(function(event)
+ 	 {  var text=event.which;
+ 	 	alert(text);
+
+ 	 });
+ 	});
+</script> 
+ 
+</body>
+</html>

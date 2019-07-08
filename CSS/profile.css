@@ -1,0 +1,44 @@
+		.card {
+
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  background-attachment: fixed;
+ background: rgba(0,0,0,0.87);
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url("../Images/wp.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color:white;
+	text-align: center;
+}
+i
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color:white;
+	text-align: center;
+}
+h1
+{
+		margin: 0;
+	padding: 0 0 20px;
+	color:#fff ;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color:green;
+
+}

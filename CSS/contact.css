@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Images/wp.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+ul
+{
+	list-style-type: none;
+	width:100%;
+	background-color: black;
+	margin: 0px;
+	padding: 15x;
+	position: fixed;
+	left: 0
+	top:0;
+	color: white;
+	height: 50px;
+
+}
+li
+{
+	margin-right: 50px;
+	float: right;
+}
+li.title
+{
+	float: left;
+}
+div.page-content
+{ 
+	margin-left: 45%;
+color:cyan;
+text-align:center;
+height:auto;
+width:350px; 
+background:rgba(0,0,0,0.7); 
+
+}
+.active{
+	color: yellow;
+}
+.button
+{
+	height: 20px;
+	width: 50px;
+	background-color:red ;
+	padding: 5px;
+	box-shadow: 2px 2px red;
+}
+.images
+{
+	background-size: 100%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
